@@ -13,6 +13,8 @@
 		F1C37F26227CC8F800FB78A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C37F24227CC8F800FB78A5 /* LaunchScreen.storyboard */; };
 		F1C37F31227CC8F900FB78A5 /* FieldSurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C37F30227CC8F900FB78A5 /* FieldSurveyTests.swift */; };
 		F1C37F3C227CC8F900FB78A5 /* FieldSurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C37F3B227CC8F900FB78A5 /* FieldSurveyUITests.swift */; };
+		F1C37F4A227CCE2700FB78A5 /* FieldSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C37F49227CCE2700FB78A5 /* FieldSurveyViewController.swift */; };
+		F1C37F4C227CCE5000FB78A5 /* FieldSurveyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C37F4B227CCE5000FB78A5 /* FieldSurveyDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		F1C37F37227CC8F900FB78A5 /* FieldSurveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FieldSurveyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C37F3B227CC8F900FB78A5 /* FieldSurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyUITests.swift; sourceTree = "<group>"; };
 		F1C37F3D227CC8F900FB78A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C37F49227CCE2700FB78A5 /* FieldSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyViewController.swift; sourceTree = "<group>"; };
+		F1C37F4B227CCE5000FB78A5 /* FieldSurveyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				F1C37F22227CC8F800FB78A5 /* Assets.xcassets */,
 				F1C37F24227CC8F800FB78A5 /* LaunchScreen.storyboard */,
 				F1C37F27227CC8F900FB78A5 /* Info.plist */,
+				F1C37F49227CCE2700FB78A5 /* FieldSurveyViewController.swift */,
+				F1C37F4B227CCE5000FB78A5 /* FieldSurveyDetailViewController.swift */,
 			);
 			path = FieldSurvey;
 			sourceTree = "<group>";
@@ -254,6 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1C37F1C227CC8F700FB78A5 /* AppDelegate.swift in Sources */,
+				F1C37F4A227CCE2700FB78A5 /* FieldSurveyViewController.swift in Sources */,
+				F1C37F4C227CCE5000FB78A5 /* FieldSurveyDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
