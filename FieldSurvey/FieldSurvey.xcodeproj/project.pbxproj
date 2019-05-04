@@ -15,6 +15,7 @@
 		F1C37F3C227CC8F900FB78A5 /* FieldSurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C37F3B227CC8F900FB78A5 /* FieldSurveyUITests.swift */; };
 		F1C37F4A227CCE2700FB78A5 /* FieldSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C37F49227CCE2700FB78A5 /* FieldSurveyViewController.swift */; };
 		F1C37F4C227CCE5000FB78A5 /* FieldSurveyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C37F4B227CCE5000FB78A5 /* FieldSurveyDetailViewController.swift */; };
+		F1C37F4E227CE23B00FB78A5 /* classification_icons in Resources */ = {isa = PBXBuildFile; fileRef = F1C37F4D227CE23B00FB78A5 /* classification_icons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F1C37F3D227CC8F900FB78A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1C37F49227CCE2700FB78A5 /* FieldSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyViewController.swift; sourceTree = "<group>"; };
 		F1C37F4B227CCE5000FB78A5 /* FieldSurveyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyDetailViewController.swift; sourceTree = "<group>"; };
+		F1C37F4D227CE23B00FB78A5 /* classification_icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = classification_icons; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		F1C37F1A227CC8F700FB78A5 /* FieldSurvey */ = {
 			isa = PBXGroup;
 			children = (
+				F1C37F4D227CE23B00FB78A5 /* classification_icons */,
 				F1C37F1B227CC8F700FB78A5 /* AppDelegate.swift */,
 				F1C37F1F227CC8F700FB78A5 /* Main.storyboard */,
 				F1C37F22227CC8F800FB78A5 /* Assets.xcassets */,
@@ -235,6 +238,7 @@
 				F1C37F26227CC8F800FB78A5 /* LaunchScreen.storyboard in Resources */,
 				F1C37F23227CC8F800FB78A5 /* Assets.xcassets in Resources */,
 				F1C37F21227CC8F700FB78A5 /* Main.storyboard in Resources */,
+				F1C37F4E227CE23B00FB78A5 /* classification_icons in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
